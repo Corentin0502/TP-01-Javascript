@@ -1,25 +1,27 @@
-# To-Do List en JavaScript
+# TP-01 : To-Do List en JavaScript
 
 ## Description
-Ce projet consiste en une application web interactive permettant à l'utilisateur de gérer une liste de tâches. L'objectif est de mettre en pratique les concepts fondamentaux de JavaScript, y compris la manipulation du DOM, la gestion des événements, et le stylage avec CSS.
+Ce projet fait partie de l'apprentissage du développement web et consiste à créer une application web simple pour gérer une liste de tâches. L'objectif principal est d'explorer les fonctionnalités de JavaScript liées à la manipulation du DOM, à la gestion des événements et au stylage avec CSS.
 
 ## Fonctionnalités
-1. **Ajout de tâches** : L'utilisateur peut ajouter une nouvelle tâche via un champ de texte.
-2. **Affichage des tâches** : Les tâches sont affichées dynamiquement dans une liste structurée.
-3. **Marquage comme terminé** : L'utilisateur peut marquer une tâche comme terminée grâce à une case à cocher.
-4. **Suppression de tâches** : Une tâche peut être supprimée de la liste.
-5. **Filtrage des tâches** : Trois options de filtrage sont disponibles :
+1. **Ajout de tâches** : Ajouter une nouvelle tâche via un champ de texte et un bouton dédié.
+2. **Affichage dynamique** : Visualiser les tâches dans une table HTML mise à jour dynamiquement.
+3. **Marquage comme terminé** : Cocher les tâches pour indiquer leur complétion.
+4. **Suppression de tâches** : Retirer une tâche spécifique de la liste.
+5. **Filtrage** : Afficher uniquement :
    - Toutes les tâches
-   - Tâches terminées
-   - Tâches non terminées
-6. **Interface utilisateur conviviale** : Une interface attrayante avec des interactions visuelles est mise en place.
+   - Les tâches terminées
+   - Les tâches non terminées
+6. **Interface utilisateur attrayante** :
+   - Stylage moderne avec CSS.
+   - Effets visuels pour les interactions.
 
 ## Technologies utilisées
-- **HTML** : Structure de la page.
-- **CSS** : Pour le stylage de l'interface utilisateur.
-- **JavaScript** : Pour la logique de l'application, y compris la manipulation du DOM et la gestion des événements.
+- **HTML** : Structure de l'application.
+- **CSS** : Stylage pour rendre l'interface utilisateur attractive.
+- **JavaScript** : Manipulation du DOM et gestion de la logique métier.
 
-## Instructions d'installation
+## Installation
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/<votre-nom-utilisateur>/<nom-du-repo>.git
+   git clone https://github.com/Corentin0502/TP-01-Javascript.git
