@@ -1,0 +1,87 @@
+#ajouterTacheBouton {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#ajouterTacheBouton:hover {
+    background-color: #0033cc;
+}
+
+#ajouterTacheBouton:active {
+    background-color: #002699;
+}
+
+#ajouterTacheBouton:focus {
+    outline: none;
+}
+
+#saisieTache {
+    padding: 5px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+}
+
+table {
+    width: 800px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    border: 2px solid #3498db;
+}
+
+table th {
+    background-color: #555;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #666;
+}
+
+table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+table td:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #ddd;
+}
+
+caption {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #666;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1) inset;
+    border-bottom: 3px solid #2980b9;
+}
+
+caption:hover {
+    background-color: #2980b9;
+}
+
+.terminee {
+    text-decoration: line-through;
+}
+
+.supprimerBouton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.supprimerBouton:hover {
+    background-color: darkred;
+}

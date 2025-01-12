@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Tâches</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <h1>Gestionnaire de tâches</h1>
+    <input type="text" id="saisieTache" placeholder="Entrez une tâche">
+    <button id="ajouterTacheBouton" onclick="AjouterTache()">Ajouter une tâche</button>
+
+    <select id="filtrerTaches" onchange="FiltrerTaches(event)">
+        <option value="toutes">Toutes les tâches</option>
+        <option value="terminees">Tâches terminées</option>
+        <option value="nonTerminees">Tâches non terminées</option>
+    </select>
+</body>
+</html>
